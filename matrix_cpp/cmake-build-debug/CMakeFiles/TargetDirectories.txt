@@ -1,0 +1,3 @@
+/Users/pavelzaitsev/Documents/os/matrix_cpp/cmake-build-debug/CMakeFiles/matrix_cpp.dir
+/Users/pavelzaitsev/Documents/os/matrix_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/pavelzaitsev/Documents/os/matrix_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
