@@ -3,15 +3,16 @@
 
 using namespace std;
 
-int WithMutex() {
+void f_mtx() {
     int value = 0;
-    mutex mut;
+    mutex mtx;
 
     auto increment = [&]() {
         int i = 1000000;
         while (i--) {
-            lock_guard<mutex> guard(mut);
+            mtx.lock();
             ++value;
+            mtx.unlock();
         }
     };
 
@@ -20,11 +21,9 @@ int WithMutex() {
 
     t0.join();
     t1.join();
-
-    return value;
 }
 
-int WithoutProtection() {
+void f_free() {
     int value = 0;
 
     auto increment = [&]() {
@@ -38,20 +37,18 @@ int WithoutProtection() {
     t0.join();
     t1.join();
 
-    return value;
 }
 
 int main() {
     clock_t now;
-    int result;
 
     now = clock();
-    result = WithoutProtection();
-    printf("WITHOUT PROTECTION: %d in %.4fs\n", result, double(clock() - now) / CLOCKS_PER_SEC);
+     f_free();
+    printf("free: %.4fs\n", double(clock() - now) / CLOCKS_PER_SEC);
 
     now = clock();
-    result = WithMutex();
-    printf("WITH MUTEX: %d, %.4fs\n", result, double(clock() - now) / CLOCKS_PER_SEC);
+    f_mtx();
+    printf("mutex: %.4fs\n", double(clock() - now) / CLOCKS_PER_SEC);
 
     return 0;
 }

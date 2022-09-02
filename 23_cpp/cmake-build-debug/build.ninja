@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/pavelzaitsev/Documents/os/23_cpp/cmake-build-debug/
+cmake_ninja_workdir = /Users/pavelzaitsev/Desktop/OS/23_cpp/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target 23_cpp
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /Users/pavelzaitsev/Documents/os/23_cpp/cmake-build-debug/
 
 build cmake_object_order_depends_target_23_cpp: phony || CMakeFiles/23_cpp.dir
 
-build CMakeFiles/23_cpp.dir/main.cpp.o: CXX_COMPILER__23_cpp_Debug /Users/pavelzaitsev/Documents/os/23_cpp/main.cpp || cmake_object_order_depends_target_23_cpp
+build CMakeFiles/23_cpp.dir/main.cpp.o: CXX_COMPILER__23_cpp_Debug /Users/pavelzaitsev/Desktop/OS/23_cpp/main.cpp || cmake_object_order_depends_target_23_cpp
   DEP_FILE = CMakeFiles/23_cpp.dir/main.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/23_cpp.dir
@@ -79,7 +79,7 @@ build 23_cpp: CXX_EXECUTABLE_LINKER__23_cpp_Debug CMakeFiles/23_cpp.dir/main.cpp
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/pavelzaitsev/Documents/os/23_cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/pavelzaitsev/Desktop/OS/23_cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -90,7 +90,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/pavelzaitsev/Documents/os/23_cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/pavelzaitsev/Documents/os/23_cpp -B/Users/pavelzaitsev/Documents/os/23_cpp/cmake-build-debug
+  COMMAND = cd /Users/pavelzaitsev/Desktop/OS/23_cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/pavelzaitsev/Desktop/OS/23_cpp -B/Users/pavelzaitsev/Desktop/OS/23_cpp/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -106,7 +106,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/pavelzaitsev/Documents/os/23_cpp/cmake-build-debug
+# Folder: /Users/pavelzaitsev/Desktop/OS/23_cpp/cmake-build-debug
 
 build all: phony 23_cpp
 

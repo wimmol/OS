@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/pavelzaitsev/Documents/os/23_cpp/cmake-build-debug"
+			"value" : "/Users/pavelzaitsev/Desktop/OS/23_cpp/cmake-build-debug"
 		},
 		{
 			"name" : "23_cpp_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/pavelzaitsev/Documents/os/23_cpp"
+			"value" : "/Users/pavelzaitsev/Desktop/OS/23_cpp"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/pavelzaitsev/Documents/os/23_cpp/cmake-build-debug"
+			"value" : "/Users/pavelzaitsev/Desktop/OS/23_cpp/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/pavelzaitsev/Documents/os/23_cpp"
+			"value" : "/Users/pavelzaitsev/Desktop/OS/23_cpp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",

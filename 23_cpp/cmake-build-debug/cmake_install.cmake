@@ -1,4 +1,4 @@
-# Install script for directory: /Users/pavelzaitsev/Documents/os/23_cpp
+# Install script for directory: /Users/pavelzaitsev/Desktop/OS/23_cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/pavelzaitsev/Documents/os/23_cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/pavelzaitsev/Desktop/OS/23_cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
